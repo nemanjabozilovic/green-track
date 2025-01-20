@@ -1,0 +1,31 @@
+# Ignore vendor folder (installed via Composer)
+vendor/
+
+# Ignore Composer lock file
+composer.lock
+
+# Ignore environment configuration
+.env
+.env.local
+.env.*.local
+
+# Ignore sensitive config files
+config/*.local.php
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore cache and temporary files
+cache/
+tmp/
+*.cache
+
+# Ignore editor and OS-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.bak
+*.swp
+*.swo

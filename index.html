@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>GreenTrack – Household Energy Efficiency Calculator</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicon -->
+  <link href="assets/img/favicon.png" rel="icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <img src="assets/img/logo.png" alt="GreenTrack Logo" class="logo-img" style="height: 50px; margin-right: 10px;">
+        <h1 class="sitename" style="margin: 0;">Green Track</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#calculator">Energy Efficiency Calculator</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container">
+        <div class="row gy-4">
+          <!-- Text Content -->
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
+            <h1>Why is Energy Efficiency Important?</h1>
+            <p>Energy efficiency helps reduce electricity and fuel consumption, lower costs, and minimize environmental
+              impact.
+              By optimizing energy use, we can decrease CO₂ emissions, conserve natural resources, and create a more
+              sustainable future.</p>
+            <div class="d-flex">
+              <a href="#calculator" class="btn-get-started">Calculate Your Savings</a>
+              <a href="https://youtu.be/pY6fAYkscTY?si=sgE4ajyIQqq8w2Cs"
+                class="glightbox btn-watch-video d-flex align-items-center">
+                <i class="bi bi-play-circle"></i><span>Watch Video</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Energy Efficiency Image -->
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="100">
+            <img src="assets/img/energy-efficiency.png" class="img-fluid animated" alt="Energy Efficiency">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+
+    <!-- Energy Efficiency Benefits Section -->
+    <section id="energy-efficiency-benefits" class="energy-efficiency-benefits section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <!-- Cost Savings -->
+          <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-cash-coin icon"></i></div>
+              <h4><a href="" class="stretched-link">Cost Savings</a></h4>
+              <p>Reducing energy consumption lowers electricity and heating costs, saving money on utility bills in the
+                long run.</p>
+            </div>
+          </div><!-- End Cost Savings Item -->
+
+          <!-- Lower Carbon Emissions -->
+          <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-cloud-sun icon"></i></div>
+              <h4><a href="" class="stretched-link">Lower Carbon Emissions</a></h4>
+              <p>Using energy-efficient appliances and renewable sources helps reduce greenhouse gas emissions and
+                combat climate change.</p>
+            </div>
+          </div><!-- End Lower Carbon Emissions Item -->
+
+          <!-- Resource Conservation -->
+          <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-recycle icon"></i></div>
+              <h4><a href="" class="stretched-link">Resource Conservation</a></h4>
+              <p>Energy efficiency reduces the demand for fossil fuels and natural resources, ensuring a sustainable
+                future for generations to come.</p>
+            </div>
+          </div><!-- End Resource Conservation Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- Energy Efficiency Benefits Section -->
+
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- About Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span>Green Track<br></span>
+        <h2>About</h2>
+        <h5>Helping households optimize energy use and reduce their carbon footprint</h5>
+      </div><!-- End About Section Title -->
+
+      <div class="container">
+        <div class="row gy-4">
+
+          <!-- Energy Efficiency Image -->
+          <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/about-green-track.jpeg" class="img-fluid" alt="Energy Efficiency">
+          </div>
+
+          <!-- Content -->
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+            <h3>Transforming Homes into Energy-Efficient Spaces</h3>
+            <p class="fst-italic">
+              GreenTrack is an interactive platform designed to help homeowners assess their energy efficiency and
+              discover ways to reduce consumption while saving money.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-all"></i> <span>Analyze your household’s energy consumption with real-time
+                  calculations.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Receive personalized recommendations to enhance energy
+                  efficiency.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Visualize potential cost savings and reduced CO₂ emissions
+                  through interactive charts.</span></li>
+            </ul>
+            <p>
+              By optimizing heating, cooling, and electricity usage, you contribute to a more sustainable future.
+              Start making smarter energy decisions today with GreenTrack.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <!-- Households Analyzed -->
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="1200" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Households Analyzed</p>
+            </div>
+          </div><!-- End Households Analyzed Stats Item -->
+
+          <!-- Energy Saved -->
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="25000" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>kWh of Energy Saved</p>
+            </div>
+          </div><!-- End Energy Saved Stats Item -->
+
+          <!-- CO₂ Reduction -->
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="15000" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>kg of CO₂ Reduced</p>
+            </div>
+          </div><!-- End CO₂ Reduction Stats Item -->
+
+          <!-- Recommendations Generated -->
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="3500" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Recommendations Generated</p>
+            </div>
+          </div><!-- End Recommendations Generated Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+
+      <!-- Services Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span>Our Services</span>
+        <h2>How GreenTrack Helps You</h2>
+        <p>Optimize your home's energy efficiency, reduce costs, and lower carbon emissions with our smart tools and
+          insights</p>
+      </div><!-- End Services Section Title -->
+
+      <div class="container">
+        <div class="row gy-4">
+
+          <!-- Energy Efficiency Calculator -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calculator"></i></div>
+              <h3><a href="#calculator" class="stretched-link">Energy Efficiency Calculator</a></h3>
+              <p>Enter your energy usage details to calculate your household's energy efficiency score and CO₂
+                emissions.</p>
+            </div>
+          </div><!-- End Energy Efficiency Calculator Item -->
+
+          <!-- Visual Data Insights -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bar-chart"></i></div>
+              <h3><a href="#resultContainer" class="stretched-link">Visual Data Insights</a></h3>
+              <p>Analyze your energy trends with interactive charts and graphs powered by Chart.js.</p>
+            </div>
+          </div><!-- End Visual Data Insights Item -->
+
+          <!-- Personalized Recommendations -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-lightbulb"></i></div>
+              <h3><a href="#recommendations" class="stretched-link">Personalized Energy Recommendations</a></h3>
+              <p>Get AI-generated tips on how to optimize your energy consumption and reduce costs.</p>
+            </div>
+          </div><!-- End Personalized Recommendations Item -->
+
+          <!-- Comparison Analysis -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-columns-gap"></i></div>
+              <h3><a href="#comparison" class="stretched-link">Comparison Analysis</a></h3>
+              <p>Compare your current energy consumption with ideal efficiency scenarios and savings potential.</p>
+            </div>
+          </div><!-- End Comparison Analysis Item -->
+
+          <!-- Mobile & Desktop Responsive -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-display"></i></div>
+              <h3><a href="#" class="stretched-link">Optimized for All Devices</a></h3>
+              <p>Enjoy a seamless experience on both desktop and mobile with responsive design.</p>
+            </div>
+          </div><!-- End Mobile & Desktop Responsive Item -->
+
+          <!-- Contact & Consultation -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-envelope"></i></div>
+              <h3><a href="#contact" class="stretched-link">Contact & Consultation</a></h3>
+              <p>Reach out to us for expert advice on improving your home’s energy efficiency.</p>
+            </div>
+          </div><!-- End Contact & Consultation Item -->
+
+        </div>
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Energy Efficiency Calculator Section -->
+    <section id="calculator" class="calculator section">
+      <div class="container section-title text-center" data-aos="fade-up">
+        <span>Energy Efficiency</span>
+        <h2>Calculate Your Energy Consumption</h2>
+        <p>Enter details about your home’s energy usage to calculate your efficiency score and CO₂ emissions</p>
+      </div>
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <form id="energyCalculatorForm" class="energy-calculator-form">
+              <!-- Heating Type -->
+              <div class="form-group">
+                <label for="heatingType">Heating Type</label>
+                <select id="heatingType" class="form-control" required>
+                  <option value="">Select Heating Type</option>
+                  <option value="electric">Electric</option>
+                  <option value="gas">Gas</option>
+                  <option value="solar">Solar</option>
+                  <option value="wood">Wood</option>
+                </select>
+              </div>
+
+              <!-- Number of Appliances -->
+              <div class="form-group">
+                <label for="numAppliances">Number of Appliances</label>
+                <input type="number" id="numAppliances" class="form-control" min="1" max="50" required>
+              </div>
+
+              <!-- Lighting Type -->
+              <div class="form-group">
+                <label for="lightingType">Lighting Type</label>
+                <select id="lightingType" class="form-control" required>
+                  <option value="">Select Lighting Type</option>
+                  <option value="led">LED</option>
+                  <option value="fluorescent">Fluorescent</option>
+                  <option value="incandescent">Incandescent</option>
+                </select>
+              </div>
+
+              <!-- Energy Usage per Month -->
+              <div class="form-group">
+                <label for="energyUsage">Monthly Energy Usage (kWh)</label>
+                <input type="number" id="energyUsage" class="form-control" min="0" required>
+              </div>
+
+              <!-- Calculate Button -->
+              <div class="text-center">
+                <button type="submit" class="btn-calculate">Calculate</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Results Display -->
+        <div id="resultContainer" class="text-center mt-4" style="display: none;">
+          <h3>Energy Efficiency Results</h3>
+
+          <div class="row justify-content-center">
+            <!-- Energy Profile Chart -->
+            <div class="col-md-6">
+              <div class="result-card">
+                <h4>Energy Profile</h4>
+                <canvas id="energyChart"></canvas>
+                <p><strong>Score:</strong> <span id="energyProfile"></span> / 100</p>
+              </div>
+            </div>
+
+            <!-- CO₂ Emissions Chart -->
+            <div class="col-md-6">
+              <div class="result-card">
+                <h4>CO₂ Emissions</h4>
+                <canvas id="co2Chart"></canvas>
+                <p><strong>Emissions:</strong> <span id="co2Emissions"></span> kg CO₂</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recommendations Section -->
+          <div id="recommendations" class="result-card mt-4">
+            <h4><i class="bi bi-lightbulb-fill"></i> Personalized Energy-Saving Tips</h4>
+            <p>Maximize efficiency and cut down emissions with these tailored suggestions for a more sustainable home
+            </p>
+            <ul id="recommendationsList" class="text-left"></ul>
+          </div>
+
+          <!-- Comparative Analysis -->
+          <div id="comparison" class="result-card mt-4">
+            <h4><i class="bi bi-bar-chart-line-fill"></i> Comparative Energy Analysis</h4>
+            <p>Analyze your current energy performance against an ideal efficiency benchmark to unlock potential savings
+            </p>
+
+            <div class="row justify-content-center">
+              <!-- Energy Efficiency Comparison -->
+              <div class="col-md-6">
+                <div class="result-card">
+                  <h5>Energy Efficiency</h5>
+                  <canvas id="comparisonEnergyChart"></canvas>
+                  <p><strong>Your Score:</strong> <span id="currentEnergyProfile"></span> / 100</p>
+                  <p><strong>Ideal Score:</strong> 95 / 100</p>
+                </div>
+              </div>
+
+              <!-- CO₂ Emissions Comparison -->
+              <div class="col-md-6">
+                <div class="result-card">
+                  <h5>CO₂ Emissions</h5>
+                  <canvas id="comparisonCo2Chart"></canvas>
+                  <p><strong>Your Emissions:</strong> <span id="currentCo2Emissions"></span> kg CO₂</p>
+                  <p><strong>Ideal Emissions:</strong> <span id="idealCo2Emissions"></span> kg CO₂</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> <!-- End Energy Efficiency Calculator Section -->
+
+    <!-- Testimonials Section Title -->
+    <section id="testimonials" class="testimonials section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <span>What Our Users Say</span>
+        <h2>Testimonials</h2>
+        <p>See how GreenTrack has helped homeowners optimize energy usage and reduce costs.</p>
+      </div> <!-- End Testimonials Section Title -->
+
+      <!-- Testimonials Section -->
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper init-swiper" data-speed="600" data-delay="5000"
+          data-breakpoints="{ &quot;320&quot;: { &quot;slidesPerView&quot;: 1, &quot;spaceBetween&quot;: 40 }, &quot;1200&quot;: { &quot;slidesPerView&quot;: 3, &quot;spaceBetween&quot;: 20 } }">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 20
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <!-- Testimonials Item 1 -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  GreenTrack helped me reduce my electricity bill by 25% in just three months! The personalized energy
+                  recommendations made all the difference.
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/user-1.png" class="testimonial-img" alt="">
+                <h3>Dejan Blagojević, Ph.D.</h3>
+                <h4>Professor at the Academy of Applied Technical and Preschool Studies</h4>
+              </div>
+            </div> <!-- End Testimonials Item 1 -->
+
+            <!-- Testimonials Item 2 -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  I never realized how much energy I was wasting until I used GreenTrack. The comparison tool showed me
+                  where I could improve, and I’ve already seen savings.
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/user-2.jpg" class="testimonial-img" alt="">
+                <h3>Olivia Bennett</h3>
+                <h4>Eco-Conscious Renter</h4>
+              </div>
+            </div> <!-- End Testimonials Item 2 -->
+
+            <!-- Testimonials Item 3 -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  The energy efficiency calculator is a game changer! I’ve optimized my heating and cooling, and my home
+                  is now much more sustainable.
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/user-4.jpg" class="testimonial-img" alt="">
+                <h3>Matthew Hayes</h3>
+                <h4>Environmental Enthusiast</h4>
+              </div>
+            </div> <!-- End Testimonials Item 3 -->
+
+            <!-- Testimonials Item 4 -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  GreenTrack provided easy-to-understand insights into my energy consumption. I love the interactive
+                  charts that help me track my progress!
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/user-3.jpg" class="testimonial-img" alt="">
+                <h3>Emma Robinson</h3>
+                <h4>Smart Home Owner</h4>
+              </div>
+            </div> <!-- End Testimonials Item 4 -->
+
+            <!-- Testimonials Item 5 -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Thanks to GreenTrack, I switched to energy-efficient appliances and cut down my CO₂ emissions by 30%.
+                  Highly recommend this tool!
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/user-5.jpg" class="testimonial-img" alt="">
+                <h3>Benjamin Wright</h3>
+                <h4>Sustainable Living Advocate</h4>
+              </div>
+            </div> <!-- End Testimonials Item 5 -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section> <!-- End Testimonials Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section accent-background">
+
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Start Your Energy Efficiency Journey</h3>
+              <p>Find out how much energy your home consumes and discover ways to optimize your energy usage.
+                Reduce costs, lower your carbon footprint, and make smarter energy choices today!</p>
+              <a class="cta-btn" href="#calculator">Calculate Your Savings</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Team Section Title -->
+      <div class="container section-title text-center" data-aos="fade-up">
+        <span>Meet Our Team</span>
+        <h2>Our Team</h2>
+        <p>Dedicated professionals committed to energy efficiency and innovation.</p>
+      </div><!-- End Team Section Title -->
+
+      <div class="container">
+        <div class="row gy-5 justify-content-center"> <!-- Centering team members -->
+
+          <!-- Team Member 1 -->
+          <div class="col-lg-4 col-md-6 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <div class="member text-center">
+              <div class="pic"><img src="assets/img/team/team-member-1.jpg" class="img-fluid" alt="Nemanja Božilović">
+              </div>
+              <div class="member-info">
+                <h4>Nemanja Božilović</h4>
+                <span>Software Engineer</span>
+                <div class="social">
+                  <a href="https://github.com/nemanjabozilovic"><i class="bi bi-github"></i></a>
+                  <a href="https://www.linkedin.com/in/nemanja-bozilovic"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.facebook.com/bozilovic1998"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/n_bozilovic"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member 1 -->
+
+          <!-- Team Member 2 -->
+          <div class="col-lg-4 col-md-6 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="member text-center">
+              <div class="pic"><img src="assets/img/team/team-member-2.jpeg" class="img-fluid" alt="Miloš Stanojković">
+              </div>
+              <div class="member-info">
+                <h4>Miloš Stanojković</h4>
+                <span>Software Engineer</span>
+                <div class="social">
+                  <a href="https://github.com/misko998"><i class="bi bi-github"></i></a>
+                  <a href="https://www.linkedin.com/in/stanojkovic-milos"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100011066675583"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/miloss98_"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member 2 -->
+
+        </div>
+      </div>
+
+    </section><!-- /Team Section -->
+
+
+
+    </div>
+
+    </div>
+
+    </section><!-- /Team Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Contact Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span>Get in Touch</span>
+        <h2>Contact Us</h2>
+        <p>Have questions about improving your home's energy efficiency? Reach out to us for expert advice and support.
+        </p>
+      </div><!-- End Contact Title -->
+
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <!-- Address Item -->
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Aleksandra Medvedeva 20, 18000 Niš, Srbija</p>
+                </div>
+              </div><!-- End Address Item -->
+
+              <!-- Call Us Item -->
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+381 18 588 211</p>
+                </div>
+              </div><!-- End Call Us Item -->
+
+              <!-- Email Us Item -->
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>info@akademijanis.edu.rs</p>
+                </div>
+              </div><!-- End Email Us Item -->
+
+              <!-- Map Item -->
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2902.262129517964!2d21.88698127568191!3d43.32970357329429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4755b736a0855555%3A0xb326217f54de4e56!2z0JDQutCw0LTQtdC80LjRmNCwINGC0LXRhdC90LjRh9C60L4t0LLQsNGB0L_QuNGC0LDRh9C60LjRhSDRgdGC0YDRg9C60L7QstC90LjRhSDRgdGC0YPQtNC40ZjQsCAvIENvbGxlZ2Ugb2YgQXBwbGllZCBUZWNobmljYWwgU2NpZW5jZXM!5e0!3m2!1ssr!2srs!4v1737370205282!5m2!1ssr!2srs"
+                frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe> <!-- End Map Item -->
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="http://127.0.0.1:8000/forms/contact.php" method="post" class="email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Thank you for reaching out! Our team will review your message and respond shortly.</div>
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer">
+
+    <!-- Footer Newsletter Form -->
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Stay Informed on Energy Efficiency</h4>
+            <p>Get expert tips on saving energy, cutting costs, and improving home efficiency.</p>
+            <form action="http://127.0.0.1:8000/forms/newsletter.php" method="post" class="email-form">
+              <div class="newsletter-form">
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <input type="submit" value="Subscribe">
+              </div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Thank you for subscribing! Get ready for exclusive energy-saving insights.</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div> <!-- End Footer Newsletter Form -->
+
+    <!-- Footer Green Track Informations Section -->
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <img src="assets/img/logo.png" alt="GreenTrack Logo" class="footer-logo"
+              style="height: 50px; margin-right: 10px;">
+            <span class="sitename">Green Track</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Aleksandra Medvedeva 20</p>
+            <p>18000 Niš, Srbija</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+381 18 588 211</span></p>
+            <p><strong>Email:</strong> <span>info@akademijanis.edu.rs</span></p>
+          </div>
+        </div> <!-- End Footer Green Track Informations Section -->
+
+        <!-- Footer Useful Links Section -->
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#hero">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#about">About Us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#calculator">Energy Efficiency Calculator</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#team">Team</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#contact">Contact</a></li>
+          </ul>
+        </div> <!-- End Footer Useful Links Section -->
+
+        <!-- Footer Our Services Section -->
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#calculator">Energy Efficiency Calculator</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#resultContainer">Energy Usage Insights</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#recommendations">Personalized Energy Tips</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#comparison">Comparison Analysis</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#contact">Consultation & Support</a></li>
+          </ul>
+        </div><!-- End Footer Our Services Item -->
+
+        <!-- Footer Follow Us Section -->
+        <div class="col-lg-4 col-md-12">
+          <h4>Stay Connected</h4>
+          <p>Follow us for the latest energy-saving tips, sustainability insights, and updates on GreenTrack.</p>
+          <div class="social-links d-flex">
+            <a href="https://x.com/odseknis" target="_blank"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.facebook.com/ATVSSNis" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/atvss_odsek_nis/" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/akademija-tehničko-vaspitačkih-strukovnih-studija"
+              target="_blank"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div><!-- End Footer Follow Us Section -->
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span id="current-year"></span> <strong class="px-1 sitename">GreenTrack</strong> – Empowering Energy
+        Efficiency. All rights reserved.</p>
+    </div>
+
+  </footer> <!-- End Footer -->
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
