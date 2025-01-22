@@ -18,7 +18,8 @@ It also provides comparative analysis tools and a contact form for further consu
 ---
 
 #### **Clone the Repository**
-git clone https://github.com/YOUR-USERNAME/green-track-ui.git
+git clone [https://github.com/YOUR-USERNAME/green-track-ui.git](https://github.com/nemanjabozilovic/green-track.git)
+
 cd green-track-ui
 
 ---
