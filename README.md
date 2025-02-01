@@ -60,7 +60,7 @@ Run the following command in the project directory:
 composer install
 
 **3. Install Papercut SMTP**
-- https://getcomposer.org/download/](https://github.com/ChangemakerStudios/Papercut-SMTP/releases
+- https://github.com/ChangemakerStudios/Papercut-SMTP/releases
 
 **4. Start a Local Development Server**
 
